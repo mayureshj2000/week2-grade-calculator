@@ -35,19 +35,27 @@ Welcome to the Student Grade Management System!
 3. Search for Student
 4. Save Results to File
 5. Exit
+   
 Select an option (1-5):
 1
+
 How many students to add?
 3
+
 Enter name for student 1:
 Sonal
+
 Math Mark (0-100):
 98
+
 Science Mark (0-100):
 97
+
 English Mark (0-100):
 95
+
 Student added successfully!
+
 Enter name for student 2:
 Mayuresh
 Math Mark (0-100):
@@ -56,7 +64,9 @@ Science Mark (0-100):
 87
 English Mark (0-100):
 85
+
 Student added successfully!
+
 Enter name for student 3:
 Pooja
 Math Mark (0-100):
@@ -65,6 +75,7 @@ Science Mark (0-100):
 85
 English Mark (0-100):
 80
+
 Student added successfully!
 
 ----- GRADE MANAGER MENU -----
