@@ -58,10 +58,13 @@ Student added successfully!
 
 Enter name for student 2:
 Mayuresh
+
 Math Mark (0-100):
 95
+
 Science Mark (0-100):
 87
+
 English Mark (0-100):
 85
 
@@ -69,10 +72,13 @@ Student added successfully!
 
 Enter name for student 3:
 Pooja
+
 Math Mark (0-100):
 90
+
 Science Mark (0-100):
 85
+
 English Mark (0-100):
 80
 
