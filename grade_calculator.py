@@ -43,6 +43,13 @@ def save_to_file(students):
     if not students:
         print(f"{YELLOW}Nothing to save. Please add student data first.{RESET}")
         return
+    filename = input("\nEnter the filename to save as (e.g., results): ").strip()
+    
+    if not filename:
+        filename = "students_report"
+    
+    if not filename.endswith(".txt"):
+        filename += ".txt"
     try:
         with open('students.txt', 'w') as f:
             f.write("Student Report\n" + "="*30 + "\n")
