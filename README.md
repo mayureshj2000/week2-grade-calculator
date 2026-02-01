@@ -25,7 +25,8 @@ Feed: Press 1 to give me student data first.
 
 View & Save: Press 2 to see my color-coded table, or 4 to save that data to your computer.
 
-**Output**
+****Output****************
+
 Welcome to the Student Grade Management System!
 
 ----- GRADE MANAGER MENU -----
