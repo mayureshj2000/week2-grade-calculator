@@ -51,11 +51,11 @@ def save_to_file(students):
     if not filename.endswith(".txt"):
         filename += ".txt"
     try:
-        with open('students.txt', 'w') as f:
-            f.write("Student Report\n" + "="*30 + "\n")
+        with open(filename, 'w') as f:
+            f.write("Student Report\n" + "="*40 + "\n")
             for s in students:
                 f.write(f"{s['name']} | AVG: {s['average']:.2f} | Grade: {s['grade']}\n")
-        print(f"\n{GREEN}[System Message]: Student data saved to students.txt{RESET}")
+        print(f"\n{GREEN}[System Message]: Student data saved to '{filename}' {RESET}")
     except PermissionError:
         print(f"{RED}Error: File is open in another program or permission denied.{RESET}")
     except Exception as e:
